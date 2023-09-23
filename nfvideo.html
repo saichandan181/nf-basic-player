@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+    background-color: black;
+}  
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+</head>
+<body>
+
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+<video id="video-id" width="100%" height="100%" autoplay="false"><source src="https://dt212.dlsnap08.xyz/download?file=OGVmNzg5ZjU4ZDBmYzM5YjAzMzBkNDEyMTViYTc1NjE3YTM1Yzc0OTZiMzJkMTVkMzNjMWJiYmU1ZWVhZmE2N18xMDgwcC5tcDTimK9TbmFwU2F2ZS5pby1PbmVSZXB1YmxpYyAtIENvdW50aW5nIFN0YXJz4pivMTA4MHA" type="video/mp4" />
+<script>
+    var myFP = fluidPlayer(
+        'video-id',	{
+	"layoutControls": {
+		"controlBar": {
+			"autoHideTimeout": 3,
+			"animated": true,
+			"autoHide": true
+		},
+		"htmlOnPauseBlock": {
+			"html": null,
+			"height": "",
+			"width": null
+		},
+		"autoPlay": true,
+		"mute": true,
+		"allowTheatre": true,
+		"playPauseAnimation": true,
+		"playbackRateEnabled": true,
+		"allowDownload": true,
+		"playButtonShowing": true,
+		"fillToContainer": false,
+		"posterImage": "https://i.ytimg.com/vi/4Afc3DyirHM/maxresdefault.jpg"
+	},
+	"vastOptions": {
+		"adList": [],
+		"adCTAText": false,
+		"adCTATextPosition": ""
+	}
+})
+
+</script>
+</script>
+</body>
+</html>
